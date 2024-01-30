@@ -15,10 +15,9 @@ class Calculadora
     }
 
     public function resta(){
-        if ($this->num1 > $this->num2)
+        
             return $this->num1-$this->num2;
-        else
-            return $this->num2-$this->num1;
+       
     }
 }
 ?>
